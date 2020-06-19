@@ -6,7 +6,7 @@
   >
     <div
       v-for="(section, index) in sidebar.sections"
-      :key="section.title"
+      :key="index"
       class="pb-4 mb-4 border-ui-border"
       :class="{ 'border-b': index < sidebar.sections.length -1 }"
     >
@@ -90,6 +90,6 @@ export default {
     findPages(links) {
       return links.map(link => this.pages.find(page => page.path === link));
     }
-  },  
+  },
 };
 </script>

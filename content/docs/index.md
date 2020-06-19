@@ -1,60 +1,36 @@
 ---
 description: ''
 sidebar: 'docs'
-next: '/docs/installation/'
+next: '/docs/lesson-1/'
 ---
 
-# О курсе гармонии
+# От автора
 
-1. Слово гармония применяется в различных смыслах. Гармонией в простейшем значении называется закономерное объединение звуков в аккорды и их осмысленное последование.
-2. Краткий курс гармонии посвящается изучению основных аккордовых последований, встречающихся в музыке
-3. Теоретические основы гармонии объясняют закономерности образования, чередования и связи отдельных аккордов.
-<iframe width="100%" height="220" src="https://musescore.com/user/27326285/scores/6208685/embed"></iframe>
+> Памяти Азария Ивановича Иванова
 
-# Fast by default
+«Краткий курс гармонии» предназначен для лиц, знакомых с элементарной теорией музыки и намеренных расширить свои музыкально-теоретические знания в профессиональном или любительском плане.
 
-This is the catchphrase of Gridsome and true in any sense of the word. Static site generators output plain html files and have other great features like image processing and lazy-loading. After Serving the initial html, Gridsome site turn into a snappy single page application.
+Теоретические положения курса в основном заимствованы из «Учения о гармонии» Ю. Н. Тюлина (изд. 1937 г.). Некоторые из них разработаны автором самостоятельно. Текст книги представляет собою обработку рукописи 1938 года.
 
-If I may quote Gridsome themselves:
+Книга основана на педагогическом методе, впервые осуществленном автором на первых курсах исполнительских отделов 1-го Ленинградского музыкального училища имени М. П. Мусоргского во второй половине 1930-х годов. Метод этот, кроме автора, многократно применялся в указанном училище и в других специальных учебных заведениях рядом педагогов (Аз. И. Ивановым, А. Я- Коральским, А. Н. Сохором, А. А. Хо- лодилиным и другими), а также в кружках любителей музыки.
 
-> Gridsome builds ultra performance into every page automatically. You get code splitting, asset optimization, progressive images, and link prefetching out of the box. With Gridsome you get almost perfect page speed scores by default.
+Книга излагает полный теоретический курс гармонии, прохождение которого опирается на упрощенные, по сравнению с обычными методами преподавания, практические навыки.
 
-In combination with [Netlify](https://www.netlify.com/) this theme gives you a perfect Lighthouse score out of the box.
+Благодаря некоторым особым приемам изложения «Краткий курс» рассчитан на усвоение его в течение 30 уроков (недель), то есть за один учебный год.
 
-## Simple Navigation
+После прохождения «Краткого курса гармонии» ученик может углубить свои знания и навыки по более подробным специальным системам. В этом случае занятия по этим системам будут значительно облегчены и смогут быть резко ускорены по сравнению с обычными сроками.
 
-Any good documentation has great navigation. This theme has support for an organized sidebar fore cross-page navigation as well as an autmatic generated table of contents for each page in your documentation.
+С другой стороны (что особенно касается любителей музыки, но также профессионалов—исполнителей), усвоив «Краткий курс гармонии», ученик окажется достаточно подготовлен к тому, чтобы непосредственно перейти к анализу музыкальных произведений, а в практическом плане — к аранжировкам для различных инструментальных и вокальных составов.
 
-## Search
+При прохождении гармонии любителями музыки приходится учитывать не только различный уровень способностей и степень подготовки ученика, но также и меру его интереса к предмету, объем и глубину знаний, которые он хочет приобрести. В отличие от профессионального обучения, здесь не может быть стандартных норм и требований, так как многое зависит от воли и желаний ученика.
 
-The search component which is shipped with this theme, automatically indexes all headlines in your markdown pages and provides instant client side search powered by [Fuse.js](https://fusejs.io/).
+В этом случае практические навыки могут быть бесконечно разнообразны. Все же опыт показывает, что их можно привести к определенным разновидностям, и среди любителей музыки, интересующихся гармонией, можно установить некоторые категории: от стремящихся узнать содержание курса лишь в общих чертах, до желающих изучить его по-деловому, основательно, чтобы углубить свое понимание музыки, в серьезном плане продолжить ознакомление с различными сторонами музыкознания. Для удовлетворения потребностей любителей различных категорий в конце книги (см. стр. 162—163) предлагаются специальные способы облегчения (сокращения и упрощения) в прохождении курса. Если курс проходится самостоятельно, желательно наличие периодического контроля со стороны руководителя.
 
-## Dark Mode
+Книгу в целом образуют:
+- Основной курс (изложенный в форме 30 уроков), Дополнение (расширяющее основной курс и рассчитанное на учеников повышенной активности),
+- Приложение (содержащее необходимые сведения для приступающих к изучению гармонии без достаточных знаний элементарной теории музыки),
+- Методические замечания (адресованные руководителю и объясняющие различные способы пользования «Кратким курсом гармонии»).
 
-This seems to be a must have for any site in current year. Click the icon at the top of the page and try it out for yourself!
-
-## TailwindCSS
-
-This starter uses [TailwindCSS](https://tailwindcss.com/) for layout and styling. You can easily configure it by editing the `tailwind.config.js` file. [PurgeCSS](https://purgecss.com/) is included as well to keep the bundle size as low as possible and the website fast and snappy!
-
-### Changing Colors
-
-The most inportant colors are defined in the `src/layouts/Default.vue` file at the top of the `style` block via CSS variables. If you want to change the primary color to orange for example, you would simply touch that value there.
-
-```css
-:rrot {
-  --color-ui-primary: theme('colors.orange.600');
-}
-```
-
-## Make it your own
-
-Of course this is just a starter to quickly get you going. After downloading and installing you can do whatever you want with this theme. Check out the `src` folder and take a look at the components.
-
-Docc uses [TailwindCSS](https://tailwindcss.com/). Colors and spacing can easily configured. To change the accent color, you only need to touch a single line in the code.
-
-Don't like how something was designed or implemented? Just change the code and **make it your way**.
-
-### Contribute
-
-If you find any spelling mistakes or have improvements to offer, I am open to anyone who has ideas and wants to contribute to this starter theme.
+Автор заранее благодарит всех, кто пришлет свои отзывы о «Кратком курсе гармонии» по адресу: Ленинград, Д-11, Инженерная ул., 9. Ленинградское отделение издательства «Музыка».
+ 
+ Автор постарается также удовлетворить потребности тех, кто пришлет ему вопросы, возникшие в связи с чтением предлагаемой книги.
