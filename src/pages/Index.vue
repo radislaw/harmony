@@ -1,19 +1,19 @@
 <template>
   <Layout>
     <div class="pt-8 md:pt-16">
-      <div class="flex flex-col items-center">
+      <div class="flex flex-col text-center items-center">
         <div class="flex flex-col items-center mb-2 text-ui-primary">
           <Logo :width="120" />
           <h1 class="text-3xl text-6xl font-black tracking-tighter border-none">
             Краткий курс гармонии
           </h1>
         </div>
-        <h2 class="text-4xl text-center lg:text-5xl">
-          А. Должанский
-        </h2>
-        <p class="text-xl font-medium text-center uppercase">
+        <p class="font-medium lg:text-3xl">
           Для любителей музыки и начинающих профессионалов
         </p>
+        <h2 class="text-4xl uppercase">
+          А. Должанский
+        </h2>
 
         <div class="flex justify-center mt-8">
           <g-link

@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Docc',
+  siteName: 'Harmony',
   icon: {
     favicon: './src/assets/favicon.png',
     touchicon: './src/assets/favicon.png'
@@ -17,7 +17,7 @@ module.exports = {
     github: process.env.URL_GITHUB || false,
     nav: {
       links: [
-        { path: '/docs/', title: 'Docs' }
+        { path: '/docs/', title: 'Harmony' }
       ]
     },
     sidebar: [
@@ -25,21 +25,17 @@ module.exports = {
         name: 'docs',
         sections: [
           {
-            title: 'Урок 1. ВВЕДЕНИЕ. ГОЛОСОВЕДЕНИЕ В МАЖОРЕ',
             items: [
               '/docs/',
-              '/docs/lesson-1',
-              '/docs/writing-content/',
-              '/docs/deploying/',
-            ]
+              ],
           },
           {
-            title: 'Configuration',
+            title: '',
             items: [
-              '/docs/settings/',
-              '/docs/sidebar/',
+              '/docs/lesson-1/',
+              '/docs/lesson-2/',
             ]
-          }
+          },
         ]
       }
     ]

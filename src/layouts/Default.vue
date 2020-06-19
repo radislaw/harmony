@@ -138,7 +138,7 @@ html[lights-out] {
   --color-ui-typo: theme('colors.gray.100');
   --color-ui-sidebar: theme('colors.gray.800');
   --color-ui-border: theme('colors.gray.800');
-  --color-ui-primary: theme('colors.teal.500');
+  --color-ui-primary: theme('colors.blue.500');
 
   pre[class*="language-"],
   code[class*="language-"] {

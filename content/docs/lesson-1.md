@@ -1,60 +1,102 @@
 ---
 description: ''
 sidebar: 'docs'
-next: '/docs/installation/'
+next: '/docs/lesson-2/'
 ---
+# 1. Введение. Голосоведение в мажоре
 
-# О курсе гармонии
+## О курсе гармонии
 
 1. Слово гармония применяется в различных смыслах. Гармонией в простейшем значении называется закономерное объединение звуков в аккорды и их осмысленное последование.
 2. Краткий курс гармонии посвящается изучению основных аккордовых последований, встречающихся в музыке
+3. Теоретические основы гармонии объясняют закономерности образования, чередования и связи отдельных аккордов.
+4. Практические задания призваны подкрепить теоретические положения и научить ученика сознательному отношению к гармонии.
+5. Знание гармонии необходимо главным образом для двух целей: 
+    а) аналитической — для лучшего понимания музыкальных произведений; 
+    б) практической — для сочинения музыки или различных обработок ее (оркестровки, аранжировки). Из них первая цель стоит не только перед музыкантами-профессионалами (композиторами, музыковедами, исполнителями), но и перед развитыми любителями музыки.
 
-<iframe width="100%" height="220" src="https://musescore.com/user/27326285/scores/6208685/embed"></iframe>
+## Четырехголосное сложение аккордов
 
-# Fast by default
+1. Изучение гармонии строится на аккордах в четырехголосном сложении. Четырехголосным сложением называется образование аккорда из четырех звуков.
+2. Каждый звук аккорда называется голосом. Все голоса нумеруются сверху вниз (первый, второй, третий, четвертый), а также имеют различные названия:
+    - первый голос — мелодия, или сопрано, или верхний голос,
+    - второй голос — альт,
+    - третий голос — тенор,
+    - четвертый голос — бас, или нижний голос
+    
+    ![1](../../src/assets/1.jpg)
+        
+- первый, второй и третий голоса вместе — верхние голоса,
+- первый и четвертый голоса вместе — крайние голоса,
+- второй и третий голоса вместе — средние голоса
 
-This is the catchphrase of Gridsome and true in any sense of the word. Static site generators output plain html files and have other great features like image processing and lazy-loading. After Serving the initial html, Gridsome site turn into a snappy single page application.
+> картинка 2
+    
+3. Аккорды в четырехголосном сложении пишутся на двух соединенных нотных строчках — верхней в скрипичном ключе и нижней — в басовом (как для фортепиано):
+   
+   три верхних голоса — на верхней строчке, для удобства чтения — с общим штилем (палочкой), направленным вверх,
+   
+   а нижний голос (бас) — на нижней строчке со штилем, направленным вниз.
 
-If I may quote Gridsome themselves:
+> картинка 3
 
-> Gridsome builds ultra performance into every page automatically. You get code splitting, asset optimization, progressive images, and link prefetching out of the box. With Gridsome you get almost perfect page speed scores by default.
+4. Бас не может быть выше верхних голосов, но может совпадать, по высоте с третьим голосом.
 
-In combination with [Netlify](https://www.netlify.com/) this theme gives you a perfect Lighthouse score out of the box.
+> картинка 4
 
-## Simple Navigation
+5. Также и верхние голоса не могут «перекрещиваться», но каждая пара соседних голосов (то есть первый и второй, или второй и третий) может совпадать по высоте.
+  
+> картинка 5  
 
-Any good documentation has great navigation. This theme has support for an organized sidebar fore cross-page navigation as well as an autmatic generated table of contents for each page in your documentation.
+6. Верхние голоса пишутся на возможно близком расстоянии между собой, первоначально так, чтобы интервал между первым и третьим голосами был уже октавы.
 
-## Search
+> картинка 6
 
-The search component which is shipped with this theme, automatically indexes all headlines in your markdown pages and provides instant client side search powered by [Fuse.js](https://fusejs.io/).
+7. Расположение аккорда, при котором между первым и третьим голосом образуется интервал уже октавы, называется **тесным**.
+8. Расположение аккорда, при котором между первым и третьим голосами образуется интервал шире октавы, называется **широким**.
 
-## Dark Mode
+> картинка 7
 
-This seems to be a must have for any site in current year. Click the icon at the top of the page and try it out for yourself!
+9. В аккордах в широком расположении расстояние между соседними верхними голосами (первым и вторым, вторым и третьим) не может быть шире октавы.
+    
+> картинка 8
 
-## TailwindCSS
+10. В любом расположении (тесном и широком, а также смешанном, см. стр. 20) интервал между третьим голосом и басом не ограничивается и теоретически может быть любым.
 
-This starter uses [TailwindCSS](https://tailwindcss.com/) for layout and styling. You can easily configure it by editing the `tailwind.config.js` file. [PurgeCSS](https://purgecss.com/) is included as well to keep the bundle size as low as possible and the website fast and snappy!
+> картинка 9   
 
-### Changing Colors
+11. Данный курс гармонии строится, как правило, на аккордах в **тесном** расположении.
 
-The most inportant colors are defined in the `src/layouts/Default.vue` file at the top of the `style` block via CSS variables. If you want to change the primary color to orange for example, you would simply touch that value there.
+## Трезвучия в четырехголосном сложении
 
-```css
-:rrot {
-  --color-ui-primary: theme('colors.orange.600');
-}
-```
+1. В трезвучиях (всех видов) в четырехголосном сложении один из составных звуков удваивается (пишется два раза). При этом:
+    - в верхних голосах пишутся все три звука (основной, терцовый и квинтовый тоны),
+    - в басу пишется один из них (основной, терцовый или квинтовый тон) в зависимости от вида аккорда, то есть
+    - звук, помещенный в басу, удваивает (повторяет) один из звуков, помещенных в верхних голосах.
+2. Таким образом:
+    - в трезвучии основного вида удваивается основной тон (х 1)
+    
+    > картинка 10
 
-## Make it your own
+   - в секстаккорде удваивается терцовый тон (х 3)
+   
+    > картинка 11
 
-Of course this is just a starter to quickly get you going. After downloading and installing you can do whatever you want with this theme. Check out the `src` folder and take a look at the components.
+    - в квартсекстаккорде удваивается квинтовый тон (х5).
+    
+    > картинка 12
+    
+## Септаккорды в четырехголосном сложении
+  
+1. В септаккордах (всех видов) в четырехголосном сложении
+    - каждый звук пишется по одному разу (ни один из звуков не удваивается), то есть
+    - звук, помещенный в басу, в верхних голосах не пишется (не повторяется).
+2. В септаккорде основного вида (7)
+    - в басу пишется основной тон,
+    - в верхних голосах пишутся остальные три звука (то есть терцовый, квинтовый и септимовый тоны) в различных расположениях.s
+    ![13](../../src/assets/13.png)
+3. В квинтсекстаккорде (6/5)
+    - в басу пишется терцовый тон,
+    - в верхних голосах пишутся остальные три звука (то есть основной, квинтовый и септимовый тоны) в различных расположениях.
+    > картинка 14
 
-Docc uses [TailwindCSS](https://tailwindcss.com/). Colors and spacing can easily configured. To change the accent color, you only need to touch a single line in the code.
-
-Don't like how something was designed or implemented? Just change the code and **make it your way**.
-
-### Contribute
-
-If you find any spelling mistakes or have improvements to offer, I am open to anyone who has ideas and wants to contribute to this starter theme.

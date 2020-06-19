@@ -1,6 +1,7 @@
 <template>
   <div class="mt-8 sm:pl-4 md:pl-6 md:pt-12 lg:pl-8 sm:pb-16 sm:border-l border-ui-border md:mt-0">
-    <h3 class="pt-0 mt-0 text-sm tracking-wide uppercase border-none">On this page</h3>
+    <template v-if="headings.length">
+    <h3 class="pt-0 mt-0 text-sm tracking-wide uppercase border-none">На этой странице</h3>
     <div>
       <ul>
         <li
@@ -34,6 +35,7 @@
         </li>
       </ul>
     </div>
+    </template>
   </div>
 </template>
 
