@@ -40,6 +40,12 @@
         <MenuIcon v-else />
       </button>
     </div>
+    <footer class="w-full p-5 text-center">
+    <small>Весь контент на данном ресурсе распространяется бесплатно.
+           Правообладателям писать на
+      <a href="mailto:radislaw22@gmail.com">почту</a>
+    </small>
+    </footer>
   </div>
 </template>
 
@@ -189,8 +195,6 @@ h3 {
 h4 {
   @apply text-lg;
 }
-
-a:not(.active):not(.text-ui-primary):not(.text-white) { @apply text-ui-typo }
 
 p,
 ol,
