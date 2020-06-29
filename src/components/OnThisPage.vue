@@ -1,7 +1,8 @@
 <template>
   <div class="mt-8 sm:pl-4 md:pl-6 md:pt-12 lg:pl-8 sm:pb-16 sm:border-l border-ui-border md:mt-0">
-    <h3 class="pt-0 mt-0 text-sm tracking-wide uppercase border-none">On this page</h3>
-    <div>
+    <template v-if="headings.length">
+    <h3 class="pt-0 mt-0 text-sm tracking-wide uppercase border-none">На этой странице</h3>
+    <div class="mb-5">
       <ul>
         <li
           v-for="(heading, index) in headings"
@@ -34,6 +35,9 @@
         </li>
       </ul>
     </div>
+    </template>
+    <a href="https://www.patreon.com/bePatron?u=34202452" data-patreon-widget-type="become-patron-button">Стать Patron!</a>
+    <iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9D%D0%B0%20%D0%BF%D0%BE%D0%BD%D1%87%D0%B8%D0%BA%D0%B8&targets-hint=&default-sum=&button-text=11&hint=&successURL=https%3A%2F%2Fharmony-yar.netlify.app%2F&quickpay=shop&account=410013397557009" width="100%" height="222" frameborder="0" allowtransparency="true" scrolling="no" class="my-3"></iframe>
   </div>
 </template>
 

@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Docc',
+  siteName: 'Harmony',
   icon: {
     favicon: './src/assets/favicon.png',
     touchicon: './src/assets/favicon.png'
@@ -17,7 +17,7 @@ module.exports = {
     github: process.env.URL_GITHUB || false,
     nav: {
       links: [
-        { path: '/docs/', title: 'Docs' }
+        { path: '/docs/', title: 'Гармония' }
       ]
     },
     sidebar: [
@@ -25,21 +25,57 @@ module.exports = {
         name: 'docs',
         sections: [
           {
-            title: 'Урок 1. ВВЕДЕНИЕ. ГОЛОСОВЕДЕНИЕ В МАЖОРЕ',
             items: [
               '/docs/',
-              '/docs/lesson-1',
-              '/docs/writing-content/',
-              '/docs/deploying/',
+              ],
+          },
+          {
+            title: '',
+            items: [
+              '/docs/lesson-1/',
+              '/docs/lesson-2/',
+              '/docs/lesson-3/',
+              '/docs/lesson-4/',
+              '/docs/lesson-5/',
+              '/docs/lesson-6/',
+              '/docs/lesson-7/',
+              '/docs/lesson-8/',
+              '/docs/lesson-9/',
+              '/docs/lesson-10/',
+              '/docs/lesson-11/',
+              '/docs/lesson-12/',
+              '/docs/lesson-13/',
+              '/docs/lesson-14/',
+              '/docs/lesson-15/',
+              '/docs/lesson-16/',
+              '/docs/lesson-17/',
+              '/docs/lesson-18/',
+              '/docs/lesson-19/',
+              '/docs/lesson-20/',
+              '/docs/lesson-21/',
+              '/docs/lesson-22/',
+              '/docs/lesson-23/',
+              '/docs/lesson-24/',
+              '/docs/lesson-25/',
+              '/docs/lesson-26/',
+              '/docs/lesson-27/',
+              '/docs/lesson-28/',
+              '/docs/lesson-29/',
+              '/docs/lesson-30/',
             ]
           },
           {
-            title: 'Configuration',
+            title: 'Дополнение',
             items: [
-              '/docs/settings/',
-              '/docs/sidebar/',
-            ]
-          }
+              '/docs/',
+            ],
+          },
+          {
+            title: 'Приложение',
+            items: [
+              '/docs/',
+            ],
+          },
         ]
       }
     ]

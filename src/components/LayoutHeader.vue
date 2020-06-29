@@ -7,7 +7,7 @@
           <g-link
             to="/"
             class="flex items-center text-ui-primary"
-            title="Home"
+            title="Главная"
           >
             <Logo :width="40" class="text-ui-primary" />
           </g-link>

@@ -40,6 +40,12 @@
         <MenuIcon v-else />
       </button>
     </div>
+    <footer class="w-full p-5 text-center">
+    <small>Весь контент на данном ресурсе распространяется бесплатно.
+           Правообладателям писать на
+      <a href="mailto:radislaw22@gmail.com">почту</a>
+    </small>
+    </footer>
   </div>
 </template>
 
@@ -138,7 +144,7 @@ html[lights-out] {
   --color-ui-typo: theme('colors.gray.100');
   --color-ui-sidebar: theme('colors.gray.800');
   --color-ui-border: theme('colors.gray.800');
-  --color-ui-primary: theme('colors.teal.500');
+  --color-ui-primary: theme('colors.blue.500');
 
   pre[class*="language-"],
   code[class*="language-"] {
@@ -190,15 +196,13 @@ h4 {
   @apply text-lg;
 }
 
-a:not(.active):not(.text-ui-primary):not(.text-white) { @apply text-ui-typo }
-
 p,
 ol,
 ul,
 pre,
 strong,
 blockquote {
-  @apply mb-4 text-base text-ui-typo;
+  @apply mb-2 text-base text-ui-typo;
 }
 
 .content {

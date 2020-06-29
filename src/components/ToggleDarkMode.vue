@@ -43,11 +43,11 @@ export default {
     },
 
     writeToStorage(prefersDark) {
-      localStorage.setItem(LIGHTS_OUT, prefersDark ? 'true' : 'false');
+      localStorage.setItem(LIGHTS_OUT, prefersDark);
     },
 
     getFromStorage() {
-      return localStorage.getItem(LIGHTS_OUT) === 'true' ? true : false;
+      return localStorage.getItem(LIGHTS_OUT) === 'true';
     }
   },
 
@@ -64,6 +64,3 @@ export default {
   }
 };
 </script>
-
-<style>
-</style>
