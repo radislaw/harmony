@@ -1,3 +1,3 @@
 # Краткий курс гармонии. Для любителей музыки и начинающих профессионалов
 
-ссылка https://radislaw.github.io/harmony/
+ссылка https://harmony-yar.netlify.app

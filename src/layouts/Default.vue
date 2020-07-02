@@ -202,7 +202,7 @@ ul,
 pre,
 strong,
 blockquote {
-  @apply mb-4 text-base text-ui-typo;
+  @apply mb-2 text-base text-ui-typo;
 }
 
 .content {

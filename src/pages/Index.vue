@@ -3,8 +3,10 @@
     <div class="pt-8 md:pt-16">
       <div class="flex flex-col text-center items-center">
         <div class="flex flex-col items-center mb-2 text-ui-primary">
-          <Logo :width="120" />
-          <h1 class="text-3xl text-6xl font-black tracking-tighter border-none">
+          <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+            Ресурс находится в процессе разработки
+          </div>
+          <h1 class="text-3xl text-6xl font-black">
             Краткий курс гармонии
           </h1>
         </div>
@@ -30,12 +32,10 @@
 </template>
 
 <script>
-import Logo from '@/components/Logo';
 import { ArrowRightCircleIcon, ZapIcon, CodeIcon, MoonIcon, SearchIcon } from 'vue-feather-icons';
 
 export default {
   components: {
-    Logo,
     ArrowRightCircleIcon,
     ZapIcon,
     CodeIcon,
