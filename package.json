@@ -17,7 +17,7 @@
     "@gridsome/transformer-remark": "^0.6.0",
     "fuse.js": "^6.2.0",
     "gridsome-plugin-tailwindcss": "^2.2.48",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "prism-themes": "^1.4.0",
     "sass-loader": "^8.0.2",
     "tailwindcss": "^1.4.6",
